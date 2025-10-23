@@ -1,50 +1,37 @@
-# Core ML & DL
 # --- Core ML & DL ---
-tensorflow
+# ⚠️ نحذف TensorFlow لأنه بيسبب تعارض في Streamlit Cloud
+# tensorflow
 torch>=1.13.1
 torchvision>=0.14.1
 scikit-learn
 pandas
-numpy
+numpy==1.26.4
 Pillow
 protobuf==3.20.3
-# Audio & Vision
-librosa
-opencv-python
-plotly
-# MLOps
-dvc
-Pillow
-mlflow
-
-# API & Server
-fastapi
-uvicorn[standard]
-python-multipart
-
-# Frontend & Testing
-streamlit
-requests
-
-huggingface_hub
-# --- NLP (Transformers) ---
-transformers
-safetensors
-huggingface-hub
 
 # --- Audio & Vision ---
 librosa
-scipy
 opencv-python
-
-
+plotly
+scipy
 
 # --- MLOps ---
 dvc
 mlflow
 
-# --- Testing ---
+# --- API & Server ---
+fastapi
+uvicorn[standard]
+python-multipart
+
+# --- Frontend & Testing ---
+streamlit
 requests
 
+# --- NLP (Transformers) ---
+transformers>=4.43.0
+safetensors
+huggingface-hub
 
-
+# --- خادعة لمنع تحميل TensorFlow فعليًا ---
+tensorflow-cpu==0.0.0
