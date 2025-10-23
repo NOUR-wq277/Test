@@ -1,6 +1,5 @@
 # --- Core ML & DL ---
-# ⚠️ نحذف TensorFlow لأنه بيسبب تعارض في Streamlit Cloud
-# tensorflow
+
 torch>=1.13.1
 torchvision>=0.14.1
 scikit-learn
@@ -28,10 +27,4 @@ python-multipart
 streamlit
 requests
 
-# --- NLP (Transformers) ---
-transformers>=4.43.0
-safetensors
-huggingface-hub
 
-# --- خادعة لمنع تحميل TensorFlow فعليًا ---
-tensorflow-cpu==0.0.0
