@@ -1,10 +1,11 @@
 # Core ML & DL
+# --- Core ML & DL ---
 tensorflow
+torch>=1.13.1
+torchvision>=0.14.1
 scikit-learn
 pandas
 numpy
-torch>=1.13.1
-torchvision>=0.14.1
 Pillow
 protobuf==3.20.3
 # Audio & Vision
@@ -44,5 +45,6 @@ mlflow
 
 # --- Testing ---
 requests
+
 
 
