@@ -26,4 +26,23 @@ streamlit
 requests
 
 huggingface_hub
+# --- NLP (Transformers) ---
+transformers
+safetensors
+huggingface-hub
+
+# --- Audio & Vision ---
+librosa
+scipy
+opencv-python
+
+
+
+# --- MLOps ---
+dvc
+mlflow
+
+# --- Testing ---
+requests
+
 
